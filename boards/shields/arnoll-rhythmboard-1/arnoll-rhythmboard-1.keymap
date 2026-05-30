@@ -17,19 +17,6 @@
                 , <&macro_tap &kp F9>
                 , <&macro_release &kp LEFT_ALT> ;
         };
-
-        // test_macro: test_macro {
-        //     compatible = "zmk,behavior-macro";
-        //     #binding-cells = <0>;
-        //     bindings = <&macro_tap &kp L &kp A &kp Y &kp E &kp R
-        //                         &kp S &kp W &kp I &kp T &kp C &kp H> ;
-        // };
-
-        // swLyr: swLyr {
-        //     compatible = "zmk,behavior-macro";
-        //     #binding-cells = <0>;
-        //     bindings = <&macro_tap &to 1 &kp N0> ;
-        // };
     };
 
     keymap {
@@ -57,7 +44,7 @@
                 &to 3 &to 4 &to 5 &to 6 &to 7 &to 8 &to 9 &to 10
                 &to 0       &none &none &none &none 
             >;
-        }
+        };
         
         normal_layout { // Layer 3
             &kp ESC &none                         &ALT_F9 &kp GRAVE

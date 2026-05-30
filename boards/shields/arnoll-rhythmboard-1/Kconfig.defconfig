@@ -21,9 +21,9 @@ config ZMK_HID_REPORT_TYPE_NKRO
 #     bool
 #     default y
 
-config USB
-    bool
-    default y
+# config USB
+#     bool
+#     default y
 
 config ZMK_USB
     bool

@@ -1,8 +1,8 @@
-if SHIELD_ZMK_4X3TEST
+if SHIELD_ARNOLL_RHYTHMBOARD_1
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "Arnoll 4x3 keyboard"
+    default "Arnoll Rhythmboard 1"
 
 # config SPI
 #     default y

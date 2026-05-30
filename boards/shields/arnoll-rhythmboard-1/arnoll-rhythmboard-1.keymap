@@ -1,0 +1,110 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h> // for OUT_TOG
+
+&kscan0 {
+    debounce-press-ms = <2>;
+    debounce-release-ms = <2>;
+};
+
+/ {
+    macros {  // https://v0-3-branch.zmk.dev/docs/keymaps/behaviors/macros
+        ALT_F9: ALT_F9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LEFT_ALT>
+                , <&macro_tap &kp F9>
+                , <&macro_release &kp LEFT_ALT> ;
+        };
+
+        // test_macro: test_macro {
+        //     compatible = "zmk,behavior-macro";
+        //     #binding-cells = <0>;
+        //     bindings = <&macro_tap &kp L &kp A &kp Y &kp E &kp R
+        //                         &kp S &kp W &kp I &kp T &kp C &kp H> ;
+        // };
+
+        // swLyr: swLyr {
+        //     compatible = "zmk,behavior-macro";
+        //     #binding-cells = <0>;
+        //     bindings = <&macro_tap &to 1 &kp N0> ;
+        // };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer { // Layer 0
+            bindings = <
+                &kp ESC &none                         &ALT_F9 &kp GRAVE
+                &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+                &to 1       &kp G &kp G &kp J &kp J
+            >;
+        };
+
+        functions { // Layer 1
+            bindings = <
+                &kp NUMBER_1 &studio_unlock         &to 3 &kp NUMBER_2
+                &kp F10 &kp F11 &kp LSHIFT &kp RSHIFT &kp UP &kp DOWN &kp LEFT &kp RIGHTW
+                &to 0           &kp SPACE  &none      &kp TAB &kp ENTER
+            >;
+        };
+
+        layers { // Layer 2
+            bindings = <
+                &to 0 &to 1 
+                &to 3 &to 4 &to 5 &to 6 &to 7 &to 8 &to 9 &to 10
+                &to 0       &none &none &none &none 
+            >;
+        }
+        
+        normal_layout { // Layer 3
+            &kp ESC &none                         &ALT_F9 &kp GRAVE
+            &kp A   &kp S &kp D &kp F &to H &kp K &kp L   &kp SEMICOLON
+            &to 1       &kp G &kp G &kp J &kp J
+        };
+
+        daily_usage { // Layer 4
+            &kp ESC &none                         &ALT_F9 &kp GRAVE
+            &kp A   &kp X &kp C &kp V &kp Z &kp N &kp HOME &kp END
+            &to 2  &kp LCTRL &kp LALT &kp LGUI &kp LSHIFT
+        };
+
+        user_define_layer1 { // Layer 5
+            &kp ESC &none                         &ALT_F9 &kp GRAVE
+            &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+            &to 2         &kp G &kp G &kp J &kp J
+        };
+
+        user_define_layer2 { // Layer 6
+            &kp ESC &none                         &ALT_F9 &kp GRAVE
+            &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+            &to 2         &kp G &kp G &kp J &kp J
+        };
+
+        user_define_layer3 { // Layer 7
+            &kp ESC &none                         &ALT_F9 &kp GRAVE
+            &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+            &to 2         &kp G &kp G &kp J &kp J
+        };
+
+        user_define_layer4 { // Layer 8
+            &kp ESC &none                         &ALT_F9 &kp GRAVE
+            &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+            &to 2         &kp G &kp G &kp J &kp J
+        };
+
+        user_define_layer5 { // Layer 9
+            &kp ESC &none                         &ALT_F9 &kp GRAVE
+            &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+            &to 2         &kp G &kp G &kp J &kp J
+        };
+
+        user_define_layer6 { // Layer 10
+            &kp ESC &none                         &ALT_F9 &kp GRAVE
+            &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+            &to 2         &kp G &kp G &kp J &kp J
+        };
+    };
+};

@@ -1,0 +1,8 @@
+file_format: "1"
+id: arnoll-rhythmboard-1
+name: Arnoll Rhythmboard 1
+type: shield
+url: https://github.com/theArnoll/RhythmBoard
+requires: [rp2040_zero]
+features:
+  - keys

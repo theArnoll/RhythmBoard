@@ -1,3 +1,4 @@
+name: zmk-keyboard-arnoll-rhythmboard-1
 build:
   settings:
     board_root: .

@@ -46,7 +46,7 @@
         functions { // Layer 1
             bindings = <
                 &kp NUMBER_1 &studio_unlock         &to 3 &kp NUMBER_2
-                &kp F10 &kp F11 &kp LSHIFT &kp RSHIFT &kp UP &kp DOWN &kp LEFT &kp RIGHTW
+                &kp F10 &kp F11 &kp LSHIFT &kp RSHIFT &kp UP &kp DOWN &kp LEFT &kp RIGHT
                 &to 0           &kp SPACE  &none      &kp TAB &kp ENTER
             >;
         };

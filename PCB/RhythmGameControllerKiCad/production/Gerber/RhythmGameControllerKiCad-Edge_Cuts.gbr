@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.1*%
+%TF.CreationDate,2026-06-18T06:39:21+08:00*%
+%TF.ProjectId,RhythmGameControllerKiCad,52687974-686d-4476-916d-65436f6e7472,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.1) date 2026-06-18 06:39:21*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X0Y0D02*
+X178816000Y0D01*
+X178816000Y-109220000D01*
+X0Y-109220000D01*
+X0Y0D01*
+M02*

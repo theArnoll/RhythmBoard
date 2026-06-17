@@ -4,8 +4,8 @@
 #include <dt-bindings/zmk/outputs.h> // for OUT_TOG
 
 &kscan0 {
-    debounce-press-ms = <2>;
-    debounce-release-ms = <2>;
+    debounce-press-ms = <1>;
+    debounce-release-ms = <1>;
 };
 
 / {
@@ -24,7 +24,7 @@
 
         default_layer { // Layer 0
             bindings = <
-                &kp ESC &none                         &ALT_F9 &kp GRAVE
+                &kp ESC &studio_unlock                &ALT_F9 &kp GRAVE
                 &kp W   &kp E &kp R &kp T &kp U &kp I &kp O   &kp P
                 &to 1       &kp G &kp G &kp J &kp J
             >;
@@ -32,15 +32,15 @@
 
         functions { // Layer 1
             bindings = <
-                &kp NUMBER_1 &studio_unlock         &to 3 &kp NUMBER_2
-                &kp F10 &kp F11 &kp LSHIFT &kp RSHIFT &kp UP &kp DOWN &kp LEFT &kp RIGHT
-                &to 0           &kp SPACE  &none      &kp TAB &kp ENTER
+                &kp NUMBER_1 &studio_unlock                           &to 3      &kp NUMBER_2
+                &kp F10 &kp LSHIFT &kp UP &kp DOWN &kp LEFT &kp RIGHT &kp RSHIFT &kp F11
+                &to 0           &kp SPACE &kp A    &kp TAB  &kp ENTER
             >;
         };
 
         layers { // Layer 2
             bindings = <
-                &to 0 &to 1 
+                &to 0 &to 1                         &to 0 &to 0
                 &to 3 &to 4 &to 5 &to 6 &to 7 &to 8 &to 9 &to 10
                 &to 0       &none &none &none &none 
             >;
@@ -49,7 +49,7 @@
         normal_layout { // Layer 3
             bindings = <
                 &kp ESC &none                         &ALT_F9 &kp GRAVE
-                &kp A   &kp S &kp D &kp F &to H &kp K &kp L   &kp SEMICOLON
+                &kp A   &kp S &kp D &kp F &kp J &kp K &kp L   &kp SEMICOLON
                 &to 1       &kp G &kp G &kp J &kp J
             >;
         };
@@ -65,7 +65,7 @@
         user_define_layer1 { // Layer 5
             bindings = <
                 &kp ESC &none                         &ALT_F9 &kp GRAVE
-                &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+                &kp W   &kp E &kp R &kp T &kp U &kp I &kp O   &kp P
                 &to 2         &kp G &kp G &kp J &kp J
             >;
         };
@@ -73,7 +73,7 @@
         user_define_layer2 { // Layer 6
             bindings = <
                 &kp ESC &none                         &ALT_F9 &kp GRAVE
-                &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+                &kp W   &kp E &kp R &kp T &kp U &kp I &kp O   &kp P
                 &to 2         &kp G &kp G &kp J &kp J
             >;
         };
@@ -81,7 +81,7 @@
         user_define_layer3 { // Layer 7
             bindings = <
                 &kp ESC &none                         &ALT_F9 &kp GRAVE
-                &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+                &kp W   &kp E &kp R &kp T &kp U &kp I &kp O   &kp P
                 &to 2         &kp G &kp G &kp J &kp J
             >;
         };
@@ -89,7 +89,7 @@
         user_define_layer4 { // Layer 8
             bindings = <
                 &kp ESC &none                         &ALT_F9 &kp GRAVE
-                &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+                &kp W   &kp E &kp R &kp T &kp U &kp I &kp O   &kp P
                 &to 2         &kp G &kp G &kp J &kp J
             >;
         };
@@ -97,7 +97,7 @@
         user_define_layer5 { // Layer 9
             bindings = <
                 &kp ESC &none                         &ALT_F9 &kp GRAVE
-                &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+                &kp W   &kp E &kp R &kp T &kp U &kp I &kp O   &kp P
                 &to 2         &kp G &kp G &kp J &kp J
             >;
         };
@@ -105,7 +105,7 @@
         user_define_layer6 { // Layer 10
             bindings = <
                 &kp ESC &none                         &ALT_F9 &kp GRAVE
-                &kp W   &kp E &kp R &kp T &to U &kp I &kp O   &kp P
+                &kp W   &kp E &kp R &kp T &kp U &kp I &kp O   &kp P
                 &to 2         &kp G &kp G &kp J &kp J
             >;
         };

@@ -3,7 +3,14 @@
 A easily customizable controller for the most computer rhythm games
 
 Suitable for osu!, DJMAX RESPECT V, Quaver, vivid/stasis, Milthm, Rhythm Doctor, Sparebeat, Polylylyrhythm, Estella, In Falsus (theoretically), etc.  
-The overall layout and default keymap is optimized for DJMAX RESPECT V, but anything
+The overall layout and default key map is optimized for DJMAX RESPECT V, but any games similar to this are supported. At most, you only need to edit the key map easily by yourself in [ZMK Studio](https://zmk.studio/) and the experience is optimized by yourself 
+
+## Features
+
+ - ZMK
+ - ZMK Studio (Easily customizable)
+ - Mechanical keyboard
+ - Widely supported
 
 ## Contents
 

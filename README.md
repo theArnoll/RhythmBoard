@@ -1,5 +1,7 @@
 # Arnoll Rhythmboard 1
 
+English | [繁體中文 (Traditional Chinese)](./README_zhTW.md)
+
 An easily customizable controller for most computer rhythm games.
 
 Suitable for multiple games, including:
@@ -8,26 +10,27 @@ Suitable for multiple games, including:
 | - | - | - | - |
 | osu! | DJMAX RESPECT V | Quaver | vivid/stasis |
 | Milthm | Rhythm Doctor | Sparebeat | Polylylyrhythm |
-| Estella | In Falsus (theoretically) | etc. | |
+| Estella | In Falsus (theoretically) | and more | |
 
-The overall layout and default keymap are optimized for DJMAX RESPECT V, but any games similar to this are supported. You only need to edit the keymap in [ZMK Studio](https://zmk.studio/) to easily optimize the Rhythmboard for the game you're playing or your preferred key bindings.
+The overall layout and default keymap are optimized for DJMAX RESPECT V and my own key binding, but any games similar to this are supported. You only need to edit the keymap in [ZMK Studio](https://zmk.studio/) to easily optimize the Rhythmboard for the game you're playing or your preferred key bindings.
 
 <!-- TODO: Images and photos -->
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [Get Started](#get-started)
-  - [Install Firmware](#install-firmware)
-  - [Build from hardware](#build-from-hardware)
-    - [BOM](#bom)
-    - [1. Prepare and Print PCB](#1-prepare-and-print-pcb)
-    - [2. Solder Everything](#2-solder-everything)
-    - [3. Assembly](#3-assembly)
-    - [4. Install Firmware](#4-install-firmware)
-- [Default keymap](#default-keymap)
-  - [Customize your keymap](#customize-your-keymap)
-- [TODOs](#todos)
+- [Arnoll Rhythmboard 1](#arnoll-rhythmboard-1)
+  - [Table of Contents](#table-of-contents)
+  - [Get Started](#get-started)
+    - [Install Firmware](#install-firmware)
+    - [Build from hardware](#build-from-hardware)
+      - [BOM](#bom)
+      - [1. Prepare and Print PCB](#1-prepare-and-print-pcb)
+      - [2. Solder Everything](#2-solder-everything)
+      - [3. Assembly](#3-assembly)
+      - [4. Install Firmware](#4-install-firmware)
+  - [Default keymap](#default-keymap)
+    - [Customize your keymap](#customize-your-keymap)
+  - [TODOs](#todos)
 
 ## Get Started
 
@@ -105,6 +108,8 @@ For THT parts, the workflow I chose is to solder the machined pin headers onto t
 Install the firmware onto your RP2040-Zero by following the steps written [here](#install-firmware).
 
 ## Default keymap
+
+Check [here](https://gist.github.com/theArnoll/bf225b66670c3d527fa65544731ffbb3#file-layout-notes-md) for better visual effect
 
 Layer 0 (default)
 <table>

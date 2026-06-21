@@ -1,4 +1,4 @@
-**# Arnoll Rhythmboard 1
+# Arnoll Rhythmboard 1
 
 An easily customizable controller for most computer rhythm games.
 
@@ -43,7 +43,7 @@ The overall layout and default keymap are optimized for DJMAX RESPECT V, but any
 1. Go to the `Actions` tab.
 2. Click the latest workflow run.
 3. Find the `Artifacts` section, locate `firmware`, and click the download icon on the right to download `firmware.zip`.
-   **If you can't find the `Artifacts` section**, click [here](https://github.com/theArnoll/RhythmBoard/actions/runs/27726159548/artifacts/7710387346).
+   **If you can't find the `Artifacts` section**, click [here](\https://github.com/theArnoll/RhythmBoard/actions/runs/27891480540/artifacts/7771182646).
 4. Connect your board to your computer in BOOTSEL mode (by plugging in the RP2040-Zero while holding the BOOT button).
 5. Unzip the `firmware.zip` you just downloaded and find the `.uf2` file inside.
 6. Drag and drop the `.uf2` file into the RP2040-Zero USB drive (likely named `RPI-RP2`), and you're good to go.
@@ -55,7 +55,7 @@ The overall layout and default keymap are optimized for DJMAX RESPECT V, but any
 1. Go to the `Actions` tab.
 2. Click the latest workflow run.
 3. Find the `Artifacts` section, locate `firmware`, and click the download icon on the right to download `firmware.zip`.
-   **If you can't find the `Artifacts` section**, click [here](https://github.com/theArnoll/RhythmBoard/actions/runs/27726159548/artifacts/7710387346).
+   **If you can't find the `Artifacts` section**, click [here](https://github.com/theArnoll/RhythmBoard/actions/runs/27891480540/artifacts/7771182646).
 4. Press and hold the `BOOT` button on the RP2040-Zero. **DO NOT RELEASE** it before plugging the RP2040-Zero into your computer. Once plugged in, release the button. You should see a new USB device appear on your computer, likely named `RPI-RP2`.
 5. Unzip the `firmware.zip` you just downloaded, locate the `.uf2` file in the extracted folder, and drag or copy it into the USB drive that appeared in the previous step.
 6. Once the copy is complete, the USB drive will automatically disconnect, and the RP2040-Zero will reboot. Your Rhythmboard is now ready to use with the latest features available.
@@ -333,4 +333,4 @@ Layer 1
 
 ---
 
-Developed based on [theArnoll/ZMK-4x3-Keyboard](https://github.com/theArnoll/ZMK-4x3-Keyboard)**
+Developed based on [theArnoll/ZMK-4x3-Keyboard](https://github.com/theArnoll/ZMK-4x3-Keyboard)

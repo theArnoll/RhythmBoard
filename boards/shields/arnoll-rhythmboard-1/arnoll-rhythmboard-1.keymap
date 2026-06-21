@@ -50,7 +50,7 @@
             bindings = <
                 &kp ESC &none                         &ALT_F9 &kp GRAVE
                 &kp A   &kp S &kp D &kp F &kp J &kp K &kp L   &kp SEMICOLON
-                &to 1       &kp G &kp G &kp J &kp J
+                &to 1       &kp V &kp V &kp N &kp N
             >;
         };
 

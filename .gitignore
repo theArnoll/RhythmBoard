@@ -2,3 +2,4 @@
 .DeprecatedFailedVersion/
 .delete/
 *backups/
+*.af

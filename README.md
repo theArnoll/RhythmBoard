@@ -1,4 +1,4 @@
-# Arnoll Rhythmboard 1
+![Logo and name](./Pictures/Nameboard.svg)
 
 English | [繁體中文 (Traditional Chinese)](./README_zhTW.md)
 
@@ -18,19 +18,18 @@ The overall layout and default keymap are optimized for DJMAX RESPECT V and my o
 
 ## Table of Contents
 
-- [Arnoll Rhythmboard 1](#arnoll-rhythmboard-1)
-  - [Table of Contents](#table-of-contents)
-  - [Get Started](#get-started)
-    - [Install Firmware](#install-firmware)
-    - [Build from hardware](#build-from-hardware)
-      - [BOM](#bom)
-      - [1. Prepare and Print PCB](#1-prepare-and-print-pcb)
-      - [2. Solder Everything](#2-solder-everything)
-      - [3. Assembly](#3-assembly)
-      - [4. Install Firmware](#4-install-firmware)
-  - [Default keymap](#default-keymap)
-    - [Customize your keymap](#customize-your-keymap)
-  - [TODOs](#todos)
+- [Table of Contents](#table-of-contents)
+- [Get Started](#get-started)
+  - [Install Firmware](#install-firmware)
+  - [Build from hardware](#build-from-hardware)
+    - [BOM](#bom)
+    - [1. Prepare and Print PCB](#1-prepare-and-print-pcb)
+    - [2. Solder Everything](#2-solder-everything)
+    - [3. Assembly](#3-assembly)
+    - [4. Install Firmware](#4-install-firmware)
+- [Default keymap](#default-keymap)
+  - [Customize your keymap](#customize-your-keymap)
+- [TODOs](#todos)
 
 ## Get Started
 

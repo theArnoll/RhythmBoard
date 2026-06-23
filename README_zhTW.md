@@ -1,4 +1,4 @@
-# Arnoll Rhythmboard 1
+![Logo and name](./Pictures/Nameboard.svg)
 
 [English](README.md) | 繁體中文  
 > 內容使用 Google AI Studio 上的 gemma-4-26b-a4b-it 進行翻譯以提高開發效率  
@@ -11,7 +11,7 @@
 | | | | |
 | - | - | - | - |
 | osu! | DJMAX RESPECT V | Quaver | vivid/stasis |
-| Milthm | Rhythm Doctor | Sparebeat | Polylylyrhythm |
+| Milthm | 節奏醫生 | Sparebeat | Polylylyrhythm |
 | Estella | In Falsus (理論上) | 更多 | |
 
 整體佈局與預設按鍵配置已針對 DJMAX RESPECT V 與個人按鍵配置進行優化，但也支援任何類似款式的遊戲。您只需要在 [ZMK Studio](https://zmk.studio/) 中編輯按鍵配置，即可輕鬆針對您正在玩的遊戲或個人偏好的按鍵綁定進行優化。
@@ -20,19 +20,18 @@
 
 ## 目錄
 
-- [Arnoll Rhythmboard 1](#arnoll-rhythmboard-1)
-  - [目錄](#目錄)
-  - [快速上手](#快速上手)
-    - [安裝韌體](#安裝韌體)
-    - [從硬體開始組裝](#從硬體開始組裝)
-      - [物料清單 (BOM)](#物料清單-bom)
-      - [1. 準備並列印 PCB](#1-準備並列印-pcb)
-      - [2. 焊接所有組件](#2-焊接所有組件)
-      - [3. 組裝](#3-組裝)
-      - [4. 安裝 ZMK 韌體](#4-安裝-zmk-韌體)
-  - [預設按鍵配置](#預設按鍵配置)
-    - [自定您的按鍵配置](#自定您的按鍵配置)
-  - [待辦事項](#待辦事項)
+- [目錄](#目錄)
+- [快速上手](#快速上手)
+  - [安裝韌體](#安裝韌體)
+  - [從硬體開始組裝](#從硬體開始組裝)
+    - [物料清單 (BOM)](#物料清單-bom)
+    - [1. 準備並列印 PCB](#1-準備並列印-pcb)
+    - [2. 焊接所有組件](#2-焊接所有組件)
+    - [3. 組裝](#3-組裝)
+    - [4. 安裝 ZMK 韌體](#4-安裝-zmk-韌體)
+- [預設按鍵配置](#預設按鍵配置)
+  - [自定您的按鍵配置](#自定您的按鍵配置)
+- [待辦事項](#待辦事項)
 
 ## 快速上手
 

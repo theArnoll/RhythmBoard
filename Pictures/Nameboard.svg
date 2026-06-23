@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 4306 528" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Artboard1" transform="matrix(2.242408,0,0,0.488419,0,0)">
+        <rect x="0" y="0" width="1920" height="1080" style="fill:none;"/>
+        <g transform="matrix(0.098055,0,0,0.450186,132.374303,481.894737)">
+            <g transform="matrix(1,0,0,1,-1350,-902.083333)">
+                <g transform="matrix(4.166667,0,0,4.166667,0,-8550)">
+                    <g id="Logo_translucent" transform="matrix(0.6,0,0,0.4,0,2052.674594)">
+                        <rect x="0" y="0" width="1080" height="1080" style="fill:none;"/>
+                        <g>
+                            <clipPath id="_clip1">
+                                <rect x="0" y="0" width="1080" height="1080"/>
+                            </clipPath>
+                            <g clip-path="url(#_clip1)">
+                                <g transform="matrix(1.666667,0,0,2.5,-360,-810)">
+                                    <path d="M216,756L864,324L864,756L756,684L756,540" style="fill:white;"/>
+                                </g>
+                                <g transform="matrix(1.666667,0,0,2.5,-360,-810)">
+                                    <path d="M324,324L216,324L324,396" style="fill:white;"/>
+                                </g>
+                                <g transform="matrix(1.666667,0,0,2.5,-360,-810)">
+                                    <path d="M864,756L216,324" style="fill:none;stroke:white;stroke-width:4.17px;"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(0.373611,0,0,1.715305,-58.589867,-16.810855)">
+            <g transform="matrix(736.404088,0,0,736.404088,5358.452834,527.492577)">
+            </g>
+            <text x="920.882px" y="527.493px" style="font-family:'Rajdhani-Regular', 'Rajdhani';font-size:736.404px;fill:white;">Rhythmboard 1</text>
+        </g>
+    </g>
+</svg>

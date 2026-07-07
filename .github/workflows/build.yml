@@ -3,4 +3,25 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
+    runs-on: ubuntu-latest
+    container: zmkfirmware/zmk-build-arm:stable
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: config
+      - name: West Init
+        run: west init -l config
+      - name: West Update
+        run: west update
+      - name: West Build
+        run: west build -s zmk/app -b rpi_pico -- -DSHIELD=arnoll_rhythmboard_1 -DZMK_CONFIG=$GITHUB_WORKSPACE/config -Dsnippet=studio-rpc-usb-uart -DCONFIG_ZMK_STUDIO=y
+      - name: Upload .config
+        uses: actions/upload-artifact@v4
+        with:
+          name: zephyr-config
+          path: build/zephyr/.config
+      - name: Upload firmware
+        uses: actions/upload-artifact@v4
+        with:
+          name: firmware
+          path: build/zephyr/zmk.uf2

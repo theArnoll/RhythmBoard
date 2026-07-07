@@ -1,2 +1,2 @@
-config ARNOLL_RHYTHMBOARD_1
+config SHIELD_ARNOLL_RHYTHMBOARD_1
     def_bool $(shields_list_contains,arnoll-rhythmboard-1)

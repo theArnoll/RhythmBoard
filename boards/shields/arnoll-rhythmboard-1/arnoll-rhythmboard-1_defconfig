@@ -1,0 +1,2 @@
+CONFIG_ZMK_HID_REPORT_TYPE_NKRO=y
+# From the instruction of https://github.com/KinesisCorporation/Adv360-Pro-ZMK#n-key-rollover

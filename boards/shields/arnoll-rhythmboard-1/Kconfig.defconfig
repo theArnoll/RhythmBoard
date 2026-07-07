@@ -1,4 +1,5 @@
 if SHIELD_ARNOLL_RHYTHMBOARD_1
+    def_bool $(shields_list_contains,arnoll-rhythmboard-1)
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME

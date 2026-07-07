@@ -9,7 +9,7 @@ config ZMK_KEYBOARD_NAME
 # https://zmk.dev/docs/development/hardware-integration/shift-registers
 # https://github.com/petejohanson/revxlp-config/blob/main/config/boards/shields/revxlp/Kconfig.defconfig
 
-config ZMK_HID_REPORT_TYPE_NKRO
+# config ZMK_HID_REPORT_TYPE_NKRO
 #    bool
 #    default y
 

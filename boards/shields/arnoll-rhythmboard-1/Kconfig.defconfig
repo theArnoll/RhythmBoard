@@ -9,9 +9,9 @@ config ZMK_KEYBOARD_NAME
 # https://zmk.dev/docs/development/hardware-integration/shift-registers
 # https://github.com/petejohanson/revxlp-config/blob/main/config/boards/shields/revxlp/Kconfig.defconfig
 
-config ZMK_HID_REPORT_TYPE_NKRO
-    bool
-    default y
+# config ZMK_HID_REPORT_TYPE_NKRO
+#     bool
+#     default y
 
 # config BT
 #     bool
@@ -25,12 +25,12 @@ config ZMK_HID_REPORT_TYPE_NKRO
 #     bool
 #     default y
 
-config ZMK_USB
-    bool
-    default y
+# config ZMK_USB
+#     bool
+#     default y
 
 
-# CONFIG_ZMK_HID_REPORT_TYPE_NKRO=y
+CONFIG_ZMK_HID_REPORT_TYPE_NKRO=y
 #CONFIG_BT=y
 #CONFIG_ZMK_BLE=y
 #CONFIG_USB=y

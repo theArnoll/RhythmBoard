@@ -45,7 +45,7 @@ The overall layout and default keymap are optimized for DJMAX RESPECT V and my o
 1. Go to the `Actions` tab.
 2. Click the latest workflow run.
 3. Find the `Artifacts` section, locate `firmware`, and click the download icon on the right to download `firmware.zip`.
-   **If you can't find the `Artifacts` section**, click [here](\https://github.com/theArnoll/RhythmBoard/actions/runs/27891480540/artifacts/7771182646).
+   **If you can't find the `Artifacts` section**, click [here](https://github.com/theArnoll/RhythmBoard/actions/runs/28886995200/artifacts/8146596750).
 4. Connect your board to your computer in BOOTSEL mode (by plugging in the RP2040-Zero while holding the BOOT button).
 5. Unzip the `firmware.zip` you just downloaded and find the `.uf2` file inside.
 6. Drag and drop the `.uf2` file into the RP2040-Zero USB drive (likely named `RPI-RP2`), and you're good to go.

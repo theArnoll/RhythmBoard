@@ -47,7 +47,7 @@
 1. 前往 `Actions` 分頁。
 2. 點擊最新的 workflow 執行紀錄。
 3. 找到 `Artifacts` 區塊，找到 `firmware`，並點擊右側的下載圖示來下載 `firmware.zip`。
-   **如果您找不到 `Artifacts` 區塊**，請點擊 [這裡](https://github.com/theArnoll/RhythmBoard/actions/runs/27726159548/artifacts/7710387346)。
+   **如果您找不到 `Artifacts` 區塊**，請點擊 [這裡](https://github.com/theArnoll/RhythmBoard/actions/runs/28886995200/artifacts/8146596750)。
 4. 將您的板子以 BOOTSEL 模式連接到電腦（按住 BOOT 鍵的同時插入 RP2040-Zero）。
 5. 解壓縮剛下載的 `firmware.zip` 並找到裡面的 `.uf2` 檔案。
 6. 將 `.uf2` 檔案拖放至 RP2040-Zero 的 USB 磁碟機中（名稱通常為 `RPI-RP2`），即可完成。
